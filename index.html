@@ -1,119 +1,68 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mohamed Khallaf | Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #121212;
-      color: #f0f0f0;
-      line-height: 1.6;
-    }
-    header {
-      background: #1f1f1f;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      color: #00bcd4;
-    }
-    nav {
-      background: #222;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
-    nav a {
-      color: #f0f0f0;
-      text-decoration: none;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      color: #00bcd4;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    a {
-      color: #00bcd4;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #1f1f1f;
-    }
-  </style>
+  <title>Mohamed's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Mohamed Magdy Khallaf</h1>
-    <p>Data Analyst | Power BI | Python | SQL</p>
+  <header id="home">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Hi, I'm Mohamed Magdy</h1>
+      <p>Data Analyst | Power BI | Python</p>
+      <!-- Replace this with your profile image -->
+      <img src="your-image.jpg" alt="Your Photo" class="profile-pic" />
+    </div>
   </header>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  
+
   <section id="about">
     <h2>About Me</h2>
-    <p>I'm Mohamed Khallaf, a Computer Science graduate and Data Analyst passionate about building dashboards and extracting insights from telecom data. I work at Huawei in the SOC team, handling big data, SQL, Excel, Power BI and more.</p>
+    <p><!-- Write a short bio here about yourself --></p>
   </section>
 
   <section id="skills">
     <h2>Skills</h2>
     <ul>
-      <li>Python (NumPy, Pandas, Matplotlib)</li>
-      <li>Power BI (DAX, Data Modeling, Visualizations)</li>
-      <li>SQL & T-SQL</li>
-      <li>Excel (Dashboards, Pivot Tables)</li>
-      <li>Tableau</li>
-    </ul>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Huawei (2024–Present):</strong> Reporting Analysis Engineer – SOC Team</li>
-      <li><strong>Huawei (Internship 2024):</strong> Data Analysis Internship – CEM Department</li>
-      <li><strong>The Sparks Foundation (2024):</strong> Data Analysis Online Internship</li>
+      <li>Power BI</li>
+      <li>SQL</li>
+      <li>Python</li>
+      <li>Excel</li>
+      <!-- Add more skills -->
     </ul>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <ul>
-      <li>Bike Share Analysis (Python)</li>
-      <li>TMDb Movies Dataset Analysis</li>
-      <li>Wine Types & Fuel Economy Analysis</li>
-      <li>Power BI dashboards from DEPI and Sparks Foundation</li>
-      <li><a href="https://github.com/mohamedkhallaf74">View GitHub Projects</a></li>
-    </ul>
+    <div class="project-list">
+      <!-- Duplicate this block for each project -->
+      <div class="project">
+        <img src="project-image.jpg" alt="Project Title" />
+        <h3>Project Title</h3>
+        <p><!-- Short description of the project --></p>
+        <a href="#">View Live</a> |
+        <a href="#">GitHub</a>
+      </div>
+    </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:mohamedkhallaf496@gmail.com">mohamedkhallaf496@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/mohamed-khallaf-2a57711a1">Profile</a></p>
-    <p>GitHub: <a href="https://github.com/mohamedkhallaf74">mohamedkhallaf74</a></p>
-    <p>Tableau: <a href="https://public.tableau.com/app/profile/mohamed.khallaf6059">Public Tableau Profile</a></p>
+    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourusername">linkedin.com/in/yourusername</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Mohamed Khallaf. All rights reserved.</p>
+    <p>&copy; 2025 Mohamed Magdy. All rights reserved.</p>
   </footer>
 </body>
 </html>
